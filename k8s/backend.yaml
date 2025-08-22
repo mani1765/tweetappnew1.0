@@ -5,7 +5,7 @@ metadata:
   name: backend-secret
 type: Opaque
 stringData:
-  MYSQL_ROOT_PASSWORD: "password"   # keep secret
+  MYSQL_ROOT_PASSWORD: cGFzc3dvcmQ=   # keep secret
 ---
 apiVersion: v1
 kind: ConfigMap
